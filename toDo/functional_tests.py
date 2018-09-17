@@ -33,12 +33,12 @@ class NewVisitorTest(unittest.TestCase):
         # She types "Buy peacock feathers" nto a text box (Edith's hobby
         # is tying fly-fishing lures)
         inputbox.send_keys('Buy peacock feathers')
-        time.sleep(10)
+        time.sleep(1)
 
         # When she hits enter, the page updates, and now the page lists
         # "1: Buy peacock feathers" as an item in a to-do list
         inputbox.send_keys(Keys.ENTER)
-        time.sleep(10)
+        time.sleep(1)
 
         table = self.browser.find_element_by_id('id_list_table')
         rows = table.find_elements_by_tag_name('tr')
