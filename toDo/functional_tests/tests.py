@@ -5,7 +5,7 @@ from selenium.webdriver.common.keys import Keys
 
 import time
 
-MAX_wAIt = 10
+MAX_WAIt = 10
 
 
 
@@ -26,9 +26,11 @@ class NewVisitorTest(LiveServerTestCase):
 
                 rows = table.find_elements_by_tag_name('tr')
                 self.assertIn(row_text, [row.text for row in rows])
+
+
                 return
             except (AssertionError, WebDriverException) as e:
-                if time.time() - start_time > MAX_wAIt:
+                if time.time() - start_time > MAX_WAIt:
                     raise e
                 time.sleep(0.5)
 
