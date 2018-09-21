@@ -99,10 +99,11 @@ class NewVisitorTest(LiveServerTestCase):
         ## We use a new browser session to make sure that no information
         ## of Edith's is coming through from cookies etc
         self.browser.quit()
-        self.browser == webdriver.Firefox()
+        self.browser = webdriver.Firefox()
 
         # Francis starts a new list by entering a new item.  He
         # is less interesting than Edith ...
+        self.browser.get(self.live_server_url)
         inputbox = self.browser.find_element_by_id('id_new_item')
         inputbox.send_keys('Buy milk')
         inputbox.send_keys(Keys.ENTER)
