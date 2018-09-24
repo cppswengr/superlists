@@ -3,17 +3,19 @@ from selenium.common.exceptions import WebDriverException
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 
+import os
 import time
 
 MAX_WAIt = 10
-
-
 
 
 class NewVisitorTest(StaticLiveServerTestCase):
 
     def setUp(self):
         self.browser = webdriver.Firefox()
+        staging_server = os.environ.get('STAGING_SERVER')
+        if staging_server:
+            self.live_server_url = 'http://' + staging_server
 
     def tearDown(self):
         self.browser.quit()
@@ -82,7 +84,7 @@ class NewVisitorTest(StaticLiveServerTestCase):
 
         # Satisfied she goes back to sleep
 
-    def test_multiple_users_can_start_lists_at_dfferent_urls(self):
+    def test_multiple_users_can_start_lists_at_different_urls(self):
         # Edith starts a new to-do list
         self.browser.get(self.live_server_url)
         inputbox = self.browser.find_element_by_id('id_new_item')

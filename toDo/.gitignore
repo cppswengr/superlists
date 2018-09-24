@@ -4,3 +4,5 @@ __pycache__
 *pyc
 workspace.xml
 /static
+.idea
+requirements.txt
