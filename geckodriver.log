@@ -1,0 +1,50 @@
+1538078867044	geckodriver	INFO	geckodriver 0.21.0
+1538078867105	geckodriver	INFO	Listening on 127.0.0.1:51599
+1538078873380	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.7tQQZSpmRzac"
+1538078879840	Marionette	INFO	Listening on port 33998
+1538078879939	Marionette	WARN	TLS certificate errors will be ignored for this session
+1538078880149	Marionette	DEBUG	[2147483649] Frame script loaded
+1538078880179	Marionette	DEBUG	[2147483649] Frame script registered
+1538078880254	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1538078882024	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1538078882104	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for http://localhost:52882/
+1538078882352	Marionette	DEBUG	[2147483649] Received DOM event pageshow for http://localhost:52882/
+1538078885152	Marionette	INFO	Stopped listening on port 33998
+1538078886796	geckodriver	INFO	geckodriver 0.21.0
+1538078886807	geckodriver	INFO	Listening on 127.0.0.1:37884
+1538078891977	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.uNRg72nKz1tj"
+1538078897892	Marionette	INFO	Listening on port 37791
+1538078897985	Marionette	WARN	TLS certificate errors will be ignored for this session
+1538078898139	Marionette	DEBUG	[2147483649] Frame script loaded
+1538078898142	Marionette	DEBUG	[2147483649] Frame script registered
+1538078898196	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1538078900955	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1538078901014	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for http://localhost:52882/
+1538078901224	Marionette	DEBUG	[2147483649] Received DOM event pageshow for http://localhost:52882/
+1538078902250	Marionette	INFO	Stopped listening on port 37791
+[Parent 5056, Gecko_IOThread] WARNING: pipe error (58): Connection reset by peer: file /build/firefox-8oo9jx/firefox-62.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1538078903784	geckodriver	INFO	geckodriver 0.21.0
+1538078903796	geckodriver	INFO	Listening on 127.0.0.1:32803
+1538078909691	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.UTunxCH5RPZF"
+1538078915555	Marionette	INFO	Listening on port 34776
+1538078915665	Marionette	WARN	TLS certificate errors will be ignored for this session
+1538078915875	Marionette	DEBUG	[2147483649] Frame script loaded
+1538078915947	Marionette	DEBUG	[2147483649] Frame script registered
+1538078916029	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1538078918672	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1538078918747	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for http://localhost:52882/
+1538078918940	Marionette	DEBUG	[2147483649] Received DOM event pageshow for http://localhost:52882/
+1538078919788	Marionette	INFO	Stopped listening on port 34776
+[Parent 5246, Gecko_IOThread] WARNING: pipe error (45): Connection reset by peer: file /build/firefox-8oo9jx/firefox-62.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1538078921159	geckodriver	INFO	geckodriver 0.21.0
+1538078921171	geckodriver	INFO	Listening on 127.0.0.1:37470
+1538078927499	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.Hi0DvKry4HAI"
+1538078933322	Marionette	INFO	Listening on port 36724
+1538078933363	Marionette	WARN	TLS certificate errors will be ignored for this session
+1538078933547	Marionette	DEBUG	[2147483649] Frame script loaded
+1538078933567	Marionette	DEBUG	[2147483649] Frame script registered
+1538078933724	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1538078935143	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1538078935216	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for http://localhost:52882/
+1538078935464	Marionette	DEBUG	[2147483649] Received DOM event pageshow for http://localhost:52882/
+1538078936470	Marionette	INFO	Stopped listening on port 36724

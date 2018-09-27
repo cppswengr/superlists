@@ -1,8 +1,0 @@
-db.sqlite3
-geckodriver.log
-__pycache__
-*pyc
-workspace.xml
-/static
-.idea
-requirements.txt
