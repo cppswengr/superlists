@@ -5,6 +5,7 @@ from selenium.webdriver.common.keys import Keys
 
 import os
 import time
+from unittest import skip
 
 MAX_WAIt = 10
 
@@ -28,13 +29,22 @@ class NewVisitorTest(StaticLiveServerTestCase):
 
                 rows = table.find_elements_by_tag_name('tr')
                 self.assertIn(row_text, [row.text for row in rows])
+    @skip
+    def test_cannot_add_empty_list_items(self):
 
+        # Edith goes to the home page and accidentally tries to submit
+        # an empty list item.  She hits Enter on the empty input box
+        # The home page refreshes, and there is an error message saying
+        # that list items cannot be blank.
 
-                return
-            except (AssertionError, WebDriverException) as e:
-                if time.time() - start_time > MAX_WAIt:
-                    raise e
-                time.sleep(0.5)
+        # She tries again with some text for the item, which now works
+
+        # Perversely, she now decides to submit a second blank item
+
+        # She receives a similar warning on the list page
+
+        # She can correct it by filling some text in
+        self.fail('write me!')
 
     def test_can_start_a_list_and_retrieve_it_later(self):
 
