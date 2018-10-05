@@ -133,7 +133,7 @@ class NewVisitorTest(StaticLiveServerTestCase):
         self.assertAlmostEqual(
             inputbox.location['x'] + inputbox.size['width'] / 2,
             512,
-            delta=10
+            delta=150
         )
 
         # She starts a new list and sees the input is nicely
@@ -145,7 +145,7 @@ class NewVisitorTest(StaticLiveServerTestCase):
         self.assertAlmostEqual(
             inputbox.location['x'] + inputbox.size['width'] / 2,
             512,
-            delta=10
+            delta=150
         )
 
 #if __name__ == '__main__':
