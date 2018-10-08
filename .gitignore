@@ -181,13 +181,11 @@ Session.vim
 
 # Temporary
 .netrwhist
-*~
 # Auto-generated tag files
 tags
 ### VirtualEnv template
 # Virtualenv
 # http://iamzed.com/2009/05/07/a-primer-on-virtualenv/
-.Python
 [Bb]in
 [Ii]nclude
 [Ll]ib
@@ -195,7 +193,6 @@ tags
 [Ll]ocal
 [Ss]cripts
 pyvenv.cfg
-.venv
 pip-selfcheck.json
 
 /.gitignore

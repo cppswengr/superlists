@@ -1435,3 +1435,93 @@ _onJSONObjectReady/<()@transport.js:500
 (firefox:15416): GLib-GObject-WARNING **: /build/glib2.0-7ZsPUq/glib2.0-2.48.2/./gobject/gsignal.c:3486: signal name 'selection_changed' is invalid for instance '0x7f6694ad43d0' of type 'MaiAtkType139'
 1538991611012	Marionette	INFO	Stopped listening on port 37861
 [Parent 15416, Gecko_IOThread] WARNING: pipe error (45): Connection reset by peer: file /build/firefox-E5azaL/firefox-62.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1539042049107	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.fh2zKZVE9Qmc"
+1539042051909	Marionette	INFO	Listening on port 37188
+1539042051951	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539042052103	Marionette	DEBUG	[2147483649] Frame script loaded
+1539042052110	Marionette	DEBUG	[2147483649] Frame script registered
+1539042052187	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1539042052264	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1539042052286	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for http://localhost:38752/
+1539042052424	Marionette	DEBUG	[2147483649] Received DOM event pageshow for http://localhost:38752/
+1539042052678	Marionette	INFO	Stopped listening on port 37188
+[Parent 5459, Gecko_IOThread] WARNING: pipe error (45): Connection reset by peer: file /build/firefox-E5azaL/firefox-62.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1539042053479	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.Yup9lSxRxsxP"
+1539042055750	Marionette	INFO	Listening on port 37108
+1539042055823	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539042055907	Marionette	DEBUG	[2147483649] Frame script loaded
+1539042055910	Marionette	DEBUG	[2147483649] Frame script registered
+1539042055939	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1539042055970	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1539042055997	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for http://localhost:38433/
+1539042056106	Marionette	DEBUG	[2147483649] Received DOM event pageshow for http://localhost:38433/
+1539042056148	Marionette	INFO	Stopped listening on port 37108
+1539042056199	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: TypeError: setting getter-only property "_currentSearchHostname" (resource://activity-stream/lib/TopSitesFeed.jsm:86:5) JS Stack trace: uninit@TopSitesFeed.jsm:86:5
+onAction@TopSitesFeed.jsm:707:9
+_middleware/</<@Store.jsm:51:11
+Store/this[method]@Store.jsm:29:55
+uninit@Store.jsm:170:7
+uninit@ActivityStream.jsm:363:5
+uninit@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@bootstrap.js:86:5
+shutdown@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@bootstrap.js:194:3
+callBootstrapMethod@XPIProvider.jsm:1592:20
+_shutdown@XPIProvider.jsm:1728:12
+observe@AsyncShutdown.jsm:541:9
+GeckoDriver.prototype.quit@driver.js:3319:3
+despatch@server.js:297:20
+execute@server.js:271:11
+onPacket/<@server.js:246:15
+onPacket@server.js:245:8
+_onJSONObjectReady/<@transport.js:500:9
+JavaScript error: resource:///modules/SavantShieldStudy.jsm, line 171: TypeError: this.addonListener is undefined
+JavaScript error: resource://gre/modules/JSONFile.jsm, line 159: Error: Data is not ready.
+JavaScript error: resource://gre/modules/JSONFile.jsm, line 159: Error: Data is not ready.
+JavaScript error: resource://gre/modules/JSONFile.jsm, line 159: Error: Data is not ready.
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 841: Error: Connection is not open.
+JavaScript error: resource://gre/modules/osfile/osfile_async_front.jsm, line 408: Error: OS.File has been shut down. Rejecting post to DirectoryIterator_prototype_close
+JavaScript error: resource://gre/modules/ProfileAge.jsm, line 197: Error: Unable to fetch oldest profile entry: Error: OS.File has been shut down. Rejecting request to DirectoryIterator_prototype_next
+JavaScript error: resource://gre/modules/osfile/osfile_async_front.jsm, line 408: Error: OS.File has been shut down. Rejecting post to DirectoryIterator_prototype_close
+JavaScript error: resource://gre/modules/ProfileAge.jsm, line 197: Error: Unable to fetch oldest profile entry: Error: OS.File has been shut down. Rejecting post to DirectoryIterator_prototype_next
+1539042057149	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.m96GaReUcSjq"
+1539042059524	Marionette	INFO	Listening on port 42433
+1539042059577	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539042059654	Marionette	DEBUG	[2147483649] Frame script loaded
+1539042059659	Marionette	DEBUG	[2147483649] Frame script registered
+1539042059780	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1539042059821	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1539042059852	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for http://localhost:53080/
+1539042060014	Marionette	DEBUG	[2147483649] Received DOM event pageshow for http://localhost:53080/
+1539042060132	Marionette	INFO	Stopped listening on port 42433
+[Parent 5810, Gecko_IOThread] WARNING: pipe error (45): Connection reset by peer: file /build/firefox-E5azaL/firefox-62.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1539042060795	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.dx0vGYUCkU1T"
+1539042063037	Marionette	INFO	Listening on port 39452
+1539042063141	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539042063211	Marionette	DEBUG	[2147483649] Frame script loaded
+1539042063214	Marionette	DEBUG	[2147483649] Frame script registered
+1539042063241	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1539042063280	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1539042063295	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for http://localhost:53080/
+1539042063422	Marionette	DEBUG	[2147483649] Received DOM event pageshow for http://localhost:53080/
+1539042063458	Marionette	INFO	Stopped listening on port 39452
+1539042063513	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: TypeError: setting getter-only property "_currentSearchHostname" (resource://activity-stream/lib/TopSitesFeed.jsm:86:5) JS Stack trace: uninit@TopSitesFeed.jsm:86:5
+onAction@TopSitesFeed.jsm:707:9
+_middleware/</<@Store.jsm:51:11
+Store/this[method]@Store.jsm:29:55
+uninit@Store.jsm:170:7
+uninit@ActivityStream.jsm:363:5
+uninit@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@bootstrap.js:86:5
+shutdown@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@bootstrap.js:194:3
+callBootstrapMethod@XPIProvider.jsm:1592:20
+_shutdown@XPIProvider.jsm:1728:12
+observe@AsyncShutdown.jsm:541:9
+GeckoDriver.prototype.quit@driver.js:3319:3
+despatch@server.js:297:20
+execute@server.js:271:11
+onPacket/<@server.js:246:15
+onPacket@server.js:245:8
+_onJSONObjectReady/<@transport.js:500:9
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 841: Error: Connection is not open.
+JavaScript error: resource://gre/modules/osfile/osfile_async_front.jsm, line 408: Error: OS.File has been shut down. Rejecting post to DirectoryIterator_prototype_close
+JavaScript error: resource://gre/modules/osfile/osfile_async_front.jsm, line 408: Error: OS.File has been shut down. Rejecting post to DirectoryIterator_prototype_close
+JavaScript error: resource://gre/modules/ProfileAge.jsm, line 197: Error: Unable to fetch oldest profile entry: Error: OS.File has been shut down. Rejecting request to DirectoryIterator_prototype_next
+JavaScript error: resource://gre/modules/ProfileAge.jsm, line 197: Error: Unable to fetch oldest profile entry: Error: OS.File has been shut down. Rejecting request to DirectoryIterator_prototype_next
