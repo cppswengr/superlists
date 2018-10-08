@@ -1290,3 +1290,76 @@ _onJSONObjectReady/<()@transport.js:500
 (firefox:11038): GLib-GObject-WARNING **: /build/glib2.0-7ZsPUq/glib2.0-2.48.2/./gobject/gsignal.c:3486: signal name 'selection_changed' is invalid for instance '0x7f1e8b518bf0' of type 'MaiAtkType139'
 1538988556227	Marionette	INFO	Stopped listening on port 41718
 [Parent 11038, Gecko_IOThread] WARNING: pipe error (45): Connection reset by peer: file /build/firefox-E5azaL/firefox-62.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1538990300763	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.EwWV7FntIcRz"
+1538990303739	Marionette	INFO	Listening on port 45810
+1538990303783	Marionette	WARN	TLS certificate errors will be ignored for this session
+1538990303958	Marionette	DEBUG	[2147483649] Frame script loaded
+1538990303992	Marionette	DEBUG	[2147483649] Frame script registered
+1538990304086	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1538990304396	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1538990304507	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for http://localhost:39566/
+1538990304697	Marionette	DEBUG	[2147483649] Received DOM event pageshow for http://localhost:39566/
+
+(firefox:13018): GLib-GObject-WARNING **: /build/glib2.0-7ZsPUq/glib2.0-2.48.2/./gobject/gsignal.c:3486: signal name 'selection_changed' is invalid for instance '0x7f61a467e830' of type 'MaiAtkType139'
+1538990305542	Marionette	INFO	Stopped listening on port 45810
+[Parent 13018, Gecko_IOThread] WARNING: pipe error (45): Connection reset by peer: file /build/firefox-E5azaL/firefox-62.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1538990307510	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.zYVcl4ZUPPNL"
+1538990310360	Marionette	INFO	Listening on port 36999
+1538990310431	Marionette	WARN	TLS certificate errors will be ignored for this session
+1538990310530	Marionette	DEBUG	[2147483649] Frame script loaded
+1538990310588	Marionette	DEBUG	[2147483649] Frame script registered
+1538990310644	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1538990310685	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1538990310728	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for http://localhost:45715/
+1538990310882	Marionette	DEBUG	[2147483649] Received DOM event pageshow for http://localhost:45715/
+
+(firefox:13200): GLib-GObject-WARNING **: /build/glib2.0-7ZsPUq/glib2.0-2.48.2/./gobject/gsignal.c:3486: signal name 'selection_changed' is invalid for instance '0x7f06b0382600' of type 'MaiAtkType139'
+
+(firefox:13200): GLib-GObject-WARNING **: /build/glib2.0-7ZsPUq/glib2.0-2.48.2/./gobject/gsignal.c:3486: signal name 'selection_changed' is invalid for instance '0x7f06c45479c0' of type 'MaiAtkType139'
+
+(firefox:13200): GLib-GObject-WARNING **: /build/glib2.0-7ZsPUq/glib2.0-2.48.2/./gobject/gsignal.c:3486: signal name 'selection_changed' is invalid for instance '0x7f06c3e7a740' of type 'MaiAtkType139'
+
+(firefox:13200): GLib-GObject-WARNING **: /build/glib2.0-7ZsPUq/glib2.0-2.48.2/./gobject/gsignal.c:3486: signal name 'selection_changed' is invalid for instance '0x7f06c71515b0' of type 'MaiAtkType139'
+1538990318221	Marionette	INFO	Stopped listening on port 36999
+[Parent 13200, Gecko_IOThread] WARNING: pipe error (45): Connection reset by peer: file /build/firefox-E5azaL/firefox-62.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1538990319011	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.vVFUAu8yCmV1"
+1538990321771	Marionette	INFO	Listening on port 35746
+1538990321828	Marionette	WARN	TLS certificate errors will be ignored for this session
+1538990321899	Marionette	DEBUG	[2147483649] Frame script loaded
+1538990321905	Marionette	DEBUG	[2147483649] Frame script registered
+1538990321945	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1538990322083	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1538990322127	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for http://localhost:37842/
+1538990322273	Marionette	DEBUG	[2147483649] Received DOM event pageshow for http://localhost:37842/
+
+(firefox:13379): GLib-GObject-WARNING **: /build/glib2.0-7ZsPUq/glib2.0-2.48.2/./gobject/gsignal.c:3486: signal name 'selection_changed' is invalid for instance '0x7fc91e5f1d80' of type 'MaiAtkType139'
+
+(firefox:13379): GLib-GObject-WARNING **: /build/glib2.0-7ZsPUq/glib2.0-2.48.2/./gobject/gsignal.c:3486: signal name 'selection_changed' is invalid for instance '0x7fc930e8eab0' of type 'MaiAtkType139'
+1538990324789	Marionette	INFO	Stopped listening on port 35746
+[Parent 13379, Gecko_IOThread] WARNING: pipe error (45): Connection reset by peer: file /build/firefox-E5azaL/firefox-62.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1538990326465	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.EMKwcGglH0GF"
+1538990329040	Marionette	INFO	Listening on port 36202
+1538990329083	Marionette	WARN	TLS certificate errors will be ignored for this session
+1538990329162	Marionette	DEBUG	[2147483649] Frame script loaded
+1538990329242	Marionette	DEBUG	[2147483649] Frame script registered
+1538990329290	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1538990329322	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1538990329339	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for http://localhost:37842/
+1538990329486	Marionette	DEBUG	[2147483649] Received DOM event pageshow for http://localhost:37842/
+
+(firefox:13554): GLib-GObject-WARNING **: /build/glib2.0-7ZsPUq/glib2.0-2.48.2/./gobject/gsignal.c:3486: signal name 'selection_changed' is invalid for instance '0x7f6d7d3bee70' of type 'MaiAtkType139'
+1538990330270	Marionette	INFO	Stopped listening on port 36202
+[Parent 13554, Gecko_IOThread] WARNING: pipe error (45): Connection reset by peer: file /build/firefox-E5azaL/firefox-62.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1538990330921	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.m6kYE9ApYxpq"
+1538990333678	Marionette	INFO	Listening on port 42140
+1538990333740	Marionette	WARN	TLS certificate errors will be ignored for this session
+1538990333822	Marionette	DEBUG	[2147483649] Frame script loaded
+1538990333824	Marionette	DEBUG	[2147483649] Frame script registered
+1538990333857	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1538990333975	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1538990333997	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for http://localhost:37842/
+1538990334140	Marionette	DEBUG	[2147483649] Received DOM event pageshow for http://localhost:37842/
+
+(firefox:13746): GLib-GObject-WARNING **: /build/glib2.0-7ZsPUq/glib2.0-2.48.2/./gobject/gsignal.c:3486: signal name 'selection_changed' is invalid for instance '0x7f9517e71c90' of type 'MaiAtkType139'
+1538990334958	Marionette	INFO	Stopped listening on port 42140
+[Parent 13746, Gecko_IOThread] WARNING: pipe error (45): Connection reset by peer: file /build/firefox-E5azaL/firefox-62.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
