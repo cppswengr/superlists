@@ -16,3 +16,9 @@ class Item(models.Model):
     # the List is formed by filtering by Item
     # e.g., bobs_list = Item.objects.filter(related_list=list)
 
+    class Meta:
+        ordering = ('id',)
+        unique_together = ('list', 'text')
+
+    def __str__(self):
+        return self.text
