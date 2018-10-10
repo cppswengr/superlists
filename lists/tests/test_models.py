@@ -10,7 +10,7 @@ class ItemModelTest(TestCase):
         self.assertEqual(list_.get_absolute_url(), f'/lists/{list_.id}/')
 
 
-class ListModelTest(TestCase):
+class ListAndItemModelsTest(TestCase):
 
     def test_default_text(self):
         item = Item()
